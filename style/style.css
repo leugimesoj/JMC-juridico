@@ -4,8 +4,8 @@
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 768px) {
-  body {
-    background-color: red;
+  body header {
+    background-color: white;
   }
   body .navbar__logo {
     width: 5vh;
