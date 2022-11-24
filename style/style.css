@@ -49,7 +49,7 @@
   body .article__1-bg {
     width: 100%;
     height: 50vh;
-    background-image: url("/src/Licenses.jpg");
+    background-image: url("../images/Licenses.jpg");
     background-size: 100% 100%;
     opacity: 0.5;
   }
@@ -70,9 +70,10 @@
     background-color: red;
   }
   body .article_1-label-subtitulo {
+    display: flex;
+    justify-content: center;
     position: absolute;
     top: 55%;
-    left: 30%;
   }
   body .article1_subtitulo {
     font-size: 4rem;
