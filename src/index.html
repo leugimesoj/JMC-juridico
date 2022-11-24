@@ -16,33 +16,43 @@
   </head>
   <body>
     <header>
-      <nav class="row d-flex p-2 justify-content-between border">
-        <div class="col-sm-6 d-flex align-items-center">
+      <nav class="row d-flex p-2 justify-content-between ">
+        <div class="col-6 d-flex align-items-center">
           <button
-            class="col-sm-4 boton--borderless d-block  navbar__icono d-md-none "
+            class="col-4 boton--borderless d-block navbar__icono d-md-none"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseExample"
             aria-expanded="false"
             aria-controls="collapseExample"
           >
-           <span class="">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
-           </span>
+            <span class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </span>
           </button>
 
-          <div class="col-sm-4 navbar__logo ms-2"></div>
-          <sapn class="col-sm-4 navbar__titulo ms-2">JMC Juridico</sapn>
+          <div class="col-4 navbar__logo ms-2"></div>
+          <sapn class="col-4 navbar__titulo ms-2">JMC Juridico</sapn>
         </div>
-        <div class="col-sm-1 d-flex justify-content-center align-items-center " >
+        <div class="col-1 d-flex justify-content-center align-items-center">
           <div class="">
             <svg
-              class="vu8Pwe tCHXDc YSH9J navbar__icono   "
+              class="vu8Pwe tCHXDc YSH9J navbar__icono"
               viewBox="0 0 24 24"
               focusable="false"
-                        >
+            >
               <path
                 d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
               ></path>
@@ -52,51 +62,44 @@
         </div>
         <div class="collapse" id="collapseExample">
           <nav>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled d-flex justify-content-around ">
               <li class="">
                 <a class="text-decoration-none" href="index.html">Inicio</a>
               </li>
               <li>
                 <button
                   type="button"
+                  class="boton__ul--borderless"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseServicio"
                   aria-expanded="false"
                   aria-controls="collapseExample"
                 >
-                  \/</button
+                  <svg
+                    class="dvmRw"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    jsname="HIH2V"
+                    focusable="false"
+                  >
+                    <g transform="translate(9.7,12) rotate(45)">
+                      <path
+                        class="K4B8Y"
+                        d="M-4.2 0 L4.2 0"
+                        stroke-width="2"
+                      ></path>
+                    </g>
+                    <g transform="translate(14.3,12) rotate(-45)">
+                      <path
+                        class="MrYMx"
+                        d="M-4.2 0 L4.2 0"
+                        stroke-width="2"
+                      ></path>
+                    </g>
+                  </svg></button
                 ><a class="text-decoration-none" href="Servicios.html"
                   >Servicios</a
                 >
-                <div class="collapse" id="collapseServicio">
-                  <ul>
-                    <li><a href="paquetes.html">Paquetes</a></li>
-                    <li>
-                      <button
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseTramites"
-                        aria-expanded="false"
-                        aria-controls="collapseExample"
-                      >
-                        \/
-                      </button>
-                      <a href="tramites.html">Trámites</a>
-                      <div class="collapse" id="collapseTramites">
-                        <ul>
-                          <li><a href="cus.htm">CUS</a></li>
-                          <li><a href="salubridad.html"></a>Salubridad</li>
-                          <li>
-                            <a href="avisos.html">Avisos Dlelegacionales</a>
-                          </li>
-                          <li>
-                            <a href="proteccioncivil.html">Proteccion Civil</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
               </li>
               <li>
                 <a class="text-decoration-none" href="Contacto.html"
@@ -104,6 +107,57 @@
                 >
               </li>
             </ul>
+            <div class="collapse" id="collapseServicio">
+              <ul class="list-unstyled d-flex justify-content-around ">
+                <li><a class="text-decoration-none" href="paquetes.html">Paquetes</a></li>
+                <li>
+                  <button
+                    type="button"
+                    class="boton__ul--borderless"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTramites"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    <svg
+                      class="dvmRw"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      jsname="HIH2V"
+                      focusable="false"
+                    >
+                      <g transform="translate(9.7,12) rotate(45)">
+                        <path
+                          class="K4B8Y"
+                          d="M-4.2 0 L4.2 0"
+                          stroke-width="2"
+                        ></path>
+                      </g>
+                      <g transform="translate(14.3,12) rotate(-45)">
+                        <path
+                          class="MrYMx"
+                          d="M-4.2 0 L4.2 0"
+                          stroke-width="2"
+                        ></path>
+                      </g>
+                    </svg>
+                  </button>
+                  <a href="tramites.html " class="text-decoration-none">Trámites</a>
+                </li>
+              </ul>
+            </div>
+            <div class="collapse" id="collapseTramites">
+              <ul class="list-unstyled d-flex justify-content-around">
+                <li><a class="text-decoration-none" href="cus.htm">CUS</a></li>
+                <li><a class="text-decoration-none" href="salubridad.html">Salubridad</a></li>
+                <li>
+                  <a class="text-decoration-none" href="avisos.html">Avisos Dlelegacionales</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="proteccioncivil.html">Proteccion Civil</a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </nav>

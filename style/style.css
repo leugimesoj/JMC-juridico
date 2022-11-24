@@ -34,6 +34,15 @@
   body .boton--borderless:hover {
     background-color: #e4e1d8;
   }
+  body .boton__ul--borderless {
+    border: 0;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+  }
+  body .boton__ul--borderless:hover {
+    background-color: #e4e1d8;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   body {
