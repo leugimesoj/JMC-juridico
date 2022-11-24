@@ -1,0 +1,36 @@
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    body {
+        
+        background-color: red;
+        .navbar__logo{
+            width: 5vh;
+            height:5vh;
+            background-image: url(https://lh5.googleusercontent.com/RuElJEHbV8qJfpZ-N1y-N1qVVdKniZkZDHuuNgiXvegypkURFofwGFtnbJDneRFVf5vwB72GD5z_TEiFFMyBLK4=w16383);
+            background-size: cover;
+        }
+        .navbar__titulo{
+            white-space: nowrap;
+            font-size: 15pt;
+            font-family: 'Oswald', sans-serif;
+        }
+        .navbar__icono{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            
+        }
+        .boton--borderless{
+            border: 0;
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            &:hover{
+                background-color: 	#e4e1d8;
+            }
+        }
+      }
+ 
+}

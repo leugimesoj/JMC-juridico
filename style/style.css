@@ -1,0 +1,42 @@
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+  body .navbar__logo {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(https://lh5.googleusercontent.com/RuElJEHbV8qJfpZ-N1y-N1qVVdKniZkZDHuuNgiXvegypkURFofwGFtnbJDneRFVf5vwB72GD5z_TEiFFMyBLK4=w16383);
+    background-size: cover;
+  }
+  body .navbar__titulo {
+    white-space: nowrap;
+    font-size: 15pt;
+    font-family: "Oswald", sans-serif;
+  }
+  body .navbar__icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+  }
+  body .boton--borderless {
+    border: 0;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+  }
+  body .boton--borderless:hover {
+    background-color: #e4e1d8;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: aqua;
+  }
+}/*# sourceMappingURL=style.css.map */
