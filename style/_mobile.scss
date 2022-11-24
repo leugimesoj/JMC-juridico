@@ -1,8 +1,6 @@
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
     body {
-        
-        background-color: red;
         .navbar__logo{
             width: 5vh;
             height:5vh;
@@ -42,6 +40,90 @@
             }
         }
 
+        .section1{
+        position: relative;
+        margin-top: 6vh;
+        }
+        .article__1-bg{
+            width: 100%;
+            height: 50vh;
+            background-image: url(https://lh4.googleusercontent.com/UHMe_B0y08e1awSmeRXGSiOxrePm9x3FSsTTZvbaCg8r8iYmJbScUhFZu_AkwZXlWcrcvZ--aHrz-PjwJvjhdSQ=w16383);
+            background-size: 100% 100%;
+           
+            opacity: 0.5;
+
+        }
+        .article1__label-titulo{
+            position: absolute;
+            top: 6%;
+            
+        }
+        .article1_titulo{
+            font-size: 4rem;
+            text-align: center;
+        }
+        .article__1-separador{
+            width: 80%;
+            height: 1rem;
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            background-color: red;
+        }
+        .article_1-label-subtitulo{
+            position: absolute;
+            top: 55%;
+            left: 40%;
+        }
+        .article1_subtitulo{
+            font-size: 4rem;   
+        }
+        .section2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F1F1F1;
+            height: 20vh;
+            margin-bottom: 3vh;
+            
+        }
+        .section2__texto{
+            width: 100%;
+            height: 10vh;
+            font-size: 2rem;
+            text-align: center;
+            padding: 5px;
+        }
+        .section3{
+
+            
+            width: 75%;
+            height: 25vh;
+            margin: 0 auto ;
+            
+            background-image: url(https://lh3.googleusercontent.com/4KrQuelv2MQ-kd6q7rHJ94Rtyc9YadSBn2emWYBza87cgf-nZ3ckomlGW4INRNGXBwHoJFFA5GvVxHlZPGLONuwshq1mMDNLff3qsIJFvcajwA-mFUYpaaG3MSSP7WzIuQ=w1280);
+            background-size: cover;
+        }
+        .section4{
+            margin-top: 50px;
+
+        }
+        .section4__titulo{
+            font-size: 2.5rem;
+            margin-left: 2vh;
+            margin-bottom: 6vh;
+            
+        }
+        .section4__subtitulo{
+            font-size: 1rem;
+            margin-left: 2vh;
+            margin-bottom: 2vh;
+
+        }
+        .section4__texto{
+            font-size: 1rem;
+            margin-left: 2vh;
+        }
 
       }
  
