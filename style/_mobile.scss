@@ -1,6 +1,11 @@
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
     body {
+        
+        header{
+            
+            background-color: white;
+        }
         .navbar__logo{
             width: 5vh;
             height:5vh;
@@ -42,12 +47,12 @@
 
         .section1{
         position: relative;
-        margin-top: 6vh;
+        
         }
         .article__1-bg{
             width: 100%;
             height: 50vh;
-            background-image: url(https://lh4.googleusercontent.com/UHMe_B0y08e1awSmeRXGSiOxrePm9x3FSsTTZvbaCg8r8iYmJbScUhFZu_AkwZXlWcrcvZ--aHrz-PjwJvjhdSQ=w16383);
+            background-image: url("../images/Licenses.jpg");
             background-size: 100% 100%;
            
             opacity: 0.5;
@@ -71,9 +76,12 @@
             background-color: red;
         }
         .article_1-label-subtitulo{
+            
+            display: flex;
+            justify-content: center;
             position: absolute;
             top: 55%;
-            left: 40%;
+            
         }
         .article1_subtitulo{
             font-size: 4rem;   
