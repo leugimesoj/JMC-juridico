@@ -9,10 +9,14 @@
         main{
             margin-bottom: 20px;
         }
+        .bg--gradient{
+            background-color: rgba(226,226,226,1);
+        }
+
         .navbar__logo{
             width: 5vh;
             height:5vh;
-            background-image: url(https://lh5.googleusercontent.com/RuElJEHbV8qJfpZ-N1y-N1qVVdKniZkZDHuuNgiXvegypkURFofwGFtnbJDneRFVf5vwB72GD5z_TEiFFMyBLK4=w16383);
+            background-image: url(/images/Logo-Dorado.png);
             background-size: cover;
         }
         .navbar__titulo{
@@ -108,14 +112,15 @@
         .section3{
 
             
-            width: 75%;
+            width: 90%;
             height: 25vh;
             margin: 0 auto ;
             
-            background-image: url(https://lh3.googleusercontent.com/4KrQuelv2MQ-kd6q7rHJ94Rtyc9YadSBn2emWYBza87cgf-nZ3ckomlGW4INRNGXBwHoJFFA5GvVxHlZPGLONuwshq1mMDNLff3qsIJFvcajwA-mFUYpaaG3MSSP7WzIuQ=w1280);
-            background-size: cover;
+            background-image : url(/images/image.jpg);
+            background-size: 100% 100%;
         }
         .section4{
+            
             margin-top: 50px;
 
         }
