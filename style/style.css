@@ -151,8 +151,16 @@
     background-color: red;
     color: white;
   }
-  body .item__list {
+  body .link__list {
     color: black;
+    text-decoration: none;
+  }
+  body .item__list {
+    list-style: none;
+    margin-left: -1rem;
+  }
+  body .offcanvas.offcanvas-start {
+    width: 60%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {

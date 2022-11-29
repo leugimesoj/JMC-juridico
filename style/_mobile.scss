@@ -1,6 +1,7 @@
 
 @media only screen and (min-width: 360px) and (max-width: 768px) {
     body {
+       
         
         header{
             
@@ -168,9 +169,24 @@
             background-color: red;
             color: white;
         }
-        .item__list{
+        .link__list{
             color: black;
+            text-decoration: none;
+
         }
+
+        .item__list{
+            list-style: none;
+            margin-left: -1rem;
+
+        }
+        .offcanvas.offcanvas-start {
+            width: 60%;
+    
+
+        }
+
+
 
       }
  
