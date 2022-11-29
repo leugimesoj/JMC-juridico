@@ -15,8 +15,8 @@
     <title>JMC Juridico</title>
   </head>
   <body>
-    <header class=>
-      <nav class="row d-flex p-2 justify-content-between ">
+    <header class="">
+      <nav class="row d-flex p-2 justify-content-between">
         <div class="col-6 d-flex align-items-center">
           <button
             class="col-4 boton--borderless d-block navbar__icono d-md-none"
@@ -44,9 +44,9 @@
           </button>
 
           <div class="col-4 navbar__logo ms-2"></div>
-          <sapn class="col-4 navbar__titulo ms-2">JMC Juridico</sapn>
+          <sapn class=" d-none d-sm-block col-4 navbar__titulo ms-2">JMC Juridico</sapn>
         </div>
-        <div class="col-1 d-flex justify-content-center align-items-center">
+        <div class="col-1 d-flex justify-content-center  align-items-center">
           <div class="">
             <svg
               class="vu8Pwe tCHXDc YSH9J navbar__icono"
@@ -60,11 +60,11 @@
             </svg>
           </div>
         </div>
-        <div class="collapse bg--gradient" id="collapseExample">
-          <nav>
+        <div class="collapse bg--gradient " id="collapseExample">
+          <nav class="">
             <ul class="list-unstyled d-flex justify-content-around ">
               <li class="">
-                <a class="text-decoration-none" href="index.html">Inicio</a>
+                <a class="item__list text-decoration-none" href="index.html">Inicio</a>
               </li>
               <li>
                 <button
@@ -97,21 +97,21 @@
                       ></path>
                     </g>
                   </svg></button
-                ><a class="text-decoration-none" href="Servicios.html"
+                ><a class="text-decoration-none item__list" href="Servicios.html"
                   >Servicios</a
                 >
               </li>
               <li>
-                <a class="text-decoration-none" href="Contacto.html"
+                <a class="text-decoration-none item__list" href="Contacto.html"
                   >Contacto</a
                 >
               </li>
             </ul>
             <div class="collapse" id="collapseServicio">
               <ul class="list-unstyled d-flex justify-content-around ">
-                <li><a class="text-decoration-none" href="paquetes.html">Paquetes</a></li>
+                <li><a class="text-decoration-none item__list" href="paquetes.html">Paquetes</a></li>
                 <li>
-                  <button
+                  <!-- <button
                     type="button"
                     class="boton__ul--borderless"
                     data-bs-toggle="collapse"
@@ -141,31 +141,47 @@
                         ></path>
                       </g>
                     </svg>
-                  </button>
-                  <a href="tramites.html " class="text-decoration-none">Trámites</a>
+                  </button> -->
+
+                  <!--aqui empieza el dip del drop down-->
+                  <div class="dropdown">
+                    <a href="tramites.html " class="text-decoration-none item__list dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Trámites</a>
+                  
+                    <ul class="list-unstyled dropdown-menu" aria-labelledby="">
+                      <li><a class="dropdown-item"  href="cus.htm">CUS</a></li>
+                      <li><a class="dropdown-item"  href="salubridad.html">Salubridad</a></li>
+                      <li>
+                        <a class="dropdown-item"  href="avisos.html">Avisos Dlelegacionales</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item"  href="proteccioncivil.html">Proteccion Civil</a>
+                      </li>
+                    </ul>
+
+                  </div>
                 </li>
               </ul>
             </div>
-            <div class="collapse" id="collapseTramites">
+            <!-- <div class="collapse" id="collapseTramites">
               <ul class="list-unstyled d-flex justify-content-around">
-                <li><a class="text-decoration-none" href="cus.htm">CUS</a></li>
-                <li><a class="text-decoration-none" href="salubridad.html">Salubridad</a></li>
+                <li><a class="text-decoration-none item__list" href="cus.htm">CUS</a></li>
+                <li><a class="text-decoration-none item__list" href="salubridad.html">Salubridad</a></li>
                 <li>
-                  <a class="text-decoration-none" href="avisos.html">Avisos Dlelegacionales</a>
+                  <a class="text-decoration-none item__list" href="avisos.html">Avisos Dlelegacionales</a>
                 </li>
                 <li>
-                  <a class="text-decoration-none" href="proteccioncivil.html">Proteccion Civil</a>
+                  <a class="text-decoration-none item__list" href="proteccioncivil.html">Proteccion Civil</a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </nav>
         </div>
       </nav>
     </header>
     <main>
       <section>
-        <article class="row section1 acticle__1 border">
-          <div class="article__1-bg border"></div>
+        <article class="row section1 acticle__1 ">
+          <div class="article__1-bg "></div>
           <div class="article1__label-titulo">
             <h1 class="article1_titulo">CONSORCIO JURIDICO</h1>
           </div>
@@ -214,7 +230,7 @@
           </div>
         </article>
         <article class="texto d-flex flex-column align-items-center">
-          <h1 class="texto__titulo  border">¡No te arriesgues a multas y clausuras!</h1>
+          <h1 class="texto__titulo  ">¡No te arriesgues a multas y clausuras!</h1>
           <h1>contactanos por whatsapp:</h1>
           <h2><b>(971)207-91-10</b></h2>
           <img class="texto__imagen" src="/images/image.png" alt="">
