@@ -143,11 +143,15 @@
     width: 70%;
     height: 90%;
   }
+  body .centrar--texto {
+    text-align: center;
+  }
   body .texto__titulo {
     text-align: center;
   }
   body .texto__imagen {
     margin-top: 20px;
+    margin-left: 25%;
     width: 200px;
     height: 200px;
   }
