@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-      <nav class=" d-flex p-2 justify-content-between">
+      <nav class="d-flex p-2 justify-content-between">
         <div class="col-6 d-flex align-items-center">
           <button
             class="col-4 boton--borderless d-block navbar__icono d-md-none"
@@ -47,12 +47,50 @@
             >JMC Juridico</sapn
           >
         </div>
-        <div class="col-1 col-md-6  nav--2">
-
+        <div class="col-1 col-md-6 nav--2">
           <ul class="navbar__principal">
-            <li class="item__list"><a  class="link__list" href="#">Inicio</a></li>
-            <li class="item__list"><a  class="link__list" href="#">Negocio</a></li>
-            <li class="item__list"><a  class="link__list" href="#">Contacto</a></li>
+            <li class="item__list">
+              <a class="link__list" href="#">Inicio</a>
+            </li>
+            <li class="item__list dropdown">
+              <a
+                class="link__list dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="#"
+                >Negocio</a
+              >
+              <ul class="dropdown-menu dropdown-menu p-2" aria-labelledby="navbarDarkDropdownMenuLink">
+              
+                  <li class="item__list">
+                    <a class="link__list" href="#">Paquetes</a>
+                  </li>
+                  <li class="item__list">
+                    <a class="link__list" href="#">Tramites</a>
+                    <ul>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Cus</a>
+                      </li>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Salubridad</a>
+                      </li>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Avisos Delegacionales</a>
+                      </li>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Proteccion civil</a>
+                      </li>
+                    </ul>
+                  </li>
+                
+              </ul>
+            </li>
+            <li class="item__list">
+              <a class="link__list" href="#">Contacto</a>
+            </li>
           </ul>
 
           <div class="lupa">
@@ -86,35 +124,48 @@
               aria-label="Close"
             ></button>
           </div>
-          
-            <div class=" mt-3 ">
-              <ul class=" " aria-labelledby="">
-                <li class="item__list " ><a class="link__list" href="#">Inicio</a></li>
-                <li class="item__list">
-                  <a class="link__list" href="#">Negocios</a>
-                  <ul>
-                    <li class="item__list"><a class="link__list" href="#">Paquetes</a></li>
-                    <li class="item__list">
-                      <a class="link__list" href="#">Tramites</a>
-                      <ul>
-                        <li class="item__list"><a class="link__list" href="#">Cus</a></li>
-                        <li class="item__list"><a class="link__list" href="#">Salubridad</a></li>
-                        <li class="item__list"><a class="link__list" href="#">Avisos Delegacionales</a></li>
-                        <li class="item__list"><a class="link__list" href="#">Proteccion civil</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li class="item__list"><a class="dropdown-item " href="#">Contacto</a></li>
-              </ul>
-            </div>
-          
+
+          <div class="mt-3">
+            <ul class=" " aria-labelledby="">
+              <li class="item__list">
+                <a class="link__list" href="#">Inicio</a>
+              </li>
+              <li class="item__list">
+                <a class="link__list" href="#">Negocios</a>
+                <ul>
+                  <li class="item__list">
+                    <a class="link__list" href="#">Paquetes</a>
+                  </li>
+                  <li class="item__list">
+                    <a class="link__list" href="#">Tramites</a>
+                    <ul>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Cus</a>
+                      </li>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Salubridad</a>
+                      </li>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Avisos Delegacionales</a>
+                      </li>
+                      <li class="item__list">
+                        <a class="link__list" href="#">Proteccion civil</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="item__list">
+                <a class="dropdown-item" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
     <main>
       <section>
-        <article class=" section1 acticle__1">
+        <article class="section1 acticle__1">
           <div class="article__1-bg"></div>
           <div class="article1__label-titulo">
             <h1 class="article1_titulo">CONSORCIO JURIDICO</h1>
@@ -129,52 +180,61 @@
             <b>Resultados rapidos y eficaces al mejor precio</b>
           </h1>
         </article>
-        <article class="section3"></article>
-        <article class="section4">
-          <h1 class="section4__titulo"><u>NEGOCIOS</u></h1>
-          <p class="section4__subtitulo">
-            ¡Apertura tu negocio sin preocupaciones!
-          </p>
-          <p class="section4__texto">
-            Con nosotros podrás obtener tus permisos hasta en menos de 48 horas,
-            permitiéndote realizar tu actividad mercantil a la brevedad posible.
-            Cotiza con nosotros y compara.
-          </p>
-        </article>
-        <article class="">
-          <div class="article__card">
-            <img src="/images/EQwJpsyX0AEdkvf.jpg" alt="" class="img__card" />
-            <p><u>Certificado de uso de suelo</u></p>
-          </div>
-        </article>
-        <article class="">
-          <div class="article__card">
-            <img src="/images/vut.png" alt="" class="img__card" />
-            <p><u>Permiso ante alcaldias</u></p>
-          </div>
-        </article>
-        <article class="">
-          <div class="article__card">
-            <img src="/images/cofepris.png" alt="" class="img__card" />
-            <p><u>Cofepris</u></p>
-          </div>
-        </article>
-        <article class="">
-          <div class="article__card">
-            <img
-              src="/images/Proteccion-civil-logo-gen.png"
-              alt=""
-              class="img__card"
-            />
-            <p><u>Proteccion Civil</u></p>
-          </div>
-        </article>
-        <article class="texto d-flex flex-column align-items-center">
-          <h1 class="texto__titulo">¡No te arriesgues a multas y clausuras!</h1>
-          <h1>contactanos por whatsapp:</h1>
-          <h2><b>(971)207-91-10</b></h2>
-          <img class="texto__imagen" src="/images/image.png" alt="" />
-        </article>
+        <div class="section__4--gral">
+          <article class="section3"></article>
+          <article class="section4">
+            <h1 class="section4__titulo"><u>NEGOCIOS</u></h1>
+            <p class="section4__subtitulo">
+              ¡Apertura tu negocio sin preocupaciones!
+            </p>
+            <p class="section4__texto">
+              Con nosotros podrás obtener tus permisos hasta en menos de 48 horas,
+              permitiéndote realizar tu actividad mercantil a la brevedad posible.
+              Cotiza con nosotros y compara.
+            </p>
+          </article>
+        </div>
+        <div class="section__4--gral">
+          <article class="">
+            <div class="article__card">
+              <img src="/images/EQwJpsyX0AEdkvf.jpg" alt="" class="img__card" />
+              <p><u>Certificado de uso de suelo</u></p>
+            </div>
+          </article>
+          <article class="">
+            <div class="article__card">
+              <img src="/images/vut.png" alt="" class="img__card" />
+              <p><u>Permiso ante alcaldias</u></p>
+            </div>
+          </article>
+          <article class="">
+            <div class="article__card">
+              <img src="/images/cofepris.png" alt="" class="img__card" />
+              <p><u>Cofepris</u></p>
+            </div>
+          </article>
+          <article class="">
+            <div class="article__card">
+              <img
+                src="/images/Proteccion-civil-logo-gen.png"
+                alt=""
+                class="img__card"
+              />
+              <p><u>Proteccion Civil</u></p>
+            </div>
+          </article>
+        </div>
+       
+          <article class="texto section__4--gral ">
+           <div>
+            <h1 class="texto__titulo">¡No te arriesgues a multas y clausuras!</h1>
+            <h1>contactanos por whatsapp:</h1>
+            <h2><b>(971)207-91-10</b></h2>
+           </div>
+            
+            <img class="texto__imagen" src="/images/image.png" alt="" />
+          </article>
+        </div>
       </section>
     </main>
     <footer class="footer">

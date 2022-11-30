@@ -85,12 +85,13 @@
         }
         .article1__label-titulo{
             position: absolute;
-            top: 6%;
+            top: 5%;
+        
+            left: 25%;
+            width: 50%;
             
         }
-        .article__1{
-            
-        }
+
         .article1_titulo{
             font-size: 4rem;
             text-align: center;
@@ -108,7 +109,8 @@
             display: flex;
             justify-content: center;
             position: absolute;
-            top: 55%;
+            top: 50%;
+            left: 40%;
             
         }
         .article1_subtitulo{
@@ -125,25 +127,30 @@
             
         }
         .section2__texto{
-            width: 100%;
+            width: 95%;
             height: 10vh;
-            font-size: 2rem;
+            font-size: 3rem;
             text-align: center;
             padding: 5px;
         }
         .section3{
 
             
-            width: 90%;
+            width: 40%;
             height: 25vh;
-            margin: 0 auto ;
+            
             
             background-image : url(/images/image.jpg);
             background-size: 100% 100%;
         }
+        .section__4--gral{
+            display: flex;
+            margin-bottom: 20px;
+        }
         .section4{
+            width: 60%;
+            margin-top: 5%;
             
-            margin-top: 50px;
 
         }
         .section4__titulo{
@@ -195,7 +202,7 @@
 
         .item__list{
             list-style: none;
-            margin-left: -1rem;
+            
 
         }
         .offcanvas.offcanvas-start {
