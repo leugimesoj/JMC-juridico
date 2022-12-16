@@ -210,7 +210,32 @@
     
 
         }
+        .negocio-final{
+            
+            padding: 20px;
+        }
+        .titulo__negocio-final{
+            margin-bottom: 3vh;
+            text-align: center;
+        }
+        .section3__negocio{
 
+
+            width: 60%;
+            height: 25vh;
+            margin: 0 auto ;
+            
+            background-image : url(/images/negocios.jpg);
+            background-size: 100% 100%;
+        }
+        .texto__negocio-final{
+           
+            padding-left: 5vh;
+            padding-right: 5vh;
+            p{
+                text-align: justify;
+            }
+        }
 
 
       }
